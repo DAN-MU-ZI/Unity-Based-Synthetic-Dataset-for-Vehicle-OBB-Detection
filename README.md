@@ -18,7 +18,7 @@
 
 | 주차장 모방 가상환경 | Perception 패키지 기반환경 |
 |----------------------|---------------------------|
-| <img src="imgs/image.png" width="320" height="240" /> | <img src="imgs/image-1.png" width="320" height="240" /> |
+| <img src="imgs/직접만든 가상환경.png" width="320" height="240" /> | <img src="imgs/image-1.png" width="320" height="240" /> |
 
 ### 문제 정의
 

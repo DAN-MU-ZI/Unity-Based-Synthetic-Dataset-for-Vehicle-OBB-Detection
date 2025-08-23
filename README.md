@@ -14,16 +14,13 @@
 
 | 전체 개발 흐름 |
 |----------------|
-| <img src="undefined (3).png" width="640" height="320" />  |
+| <img src="imgs/undefined (3).png" width="640" height="320" />  |
 
 | 주차장 모방 가상환경 | Perception 패키지 기반환경 |
 |----------------------|---------------------------|
-| <img src="image.png" width="320" height="240" /> | <img src="image-1.png" width="320" height="240" /> |
+| <img src="imgs/image.png" width="320" height="240" /> | <img src="imgs/image-1.png" width="320" height="240" /> |
 
 ### 문제 정의
-- 탑뷰 관점에서 차량을 인식하고 방향까지 추적해야 했지만 적절한 학습 데이터셋이 희소함
-- 직접 라벨링은 생산성이 낮아 현실적이지 않음
-- 가상 데이터셋 생성 및 다양한 노이즈 반영이 필요했음
 
 ### 해결 과정
 
@@ -33,7 +30,7 @@
 
 | 주차장 가상환경 | 생성된 데이터셋 | 학습 결과 |
 |----------------------|---------------------------|---------------------------|
-| <img src="직접만든 가상환경 생성과정.gif" width="240" height="180" /> | <img src="image-4.png" width="240" height="180" /> | <img src="image-3.png" width="240" height="180" /> |
+| <img src="imgs/직접만든 가상환경 생성과정.gif" width="240" height="180" /> | <img src="imgs/image-4.png" width="240" height="180" /> | <img src="imgs/image-3.png" width="240" height="180" /> |
 
 #### 2. 메모리 관리 최적화
 
@@ -48,7 +45,7 @@
 
 | 주차장 가상환경 | 생성된 데이터셋 | 학습 결과 |
 |----------------------|---------------------------|---------------------------|
-| <img src="Perception-ezgif.com-video-to-gif-converter.gif" width="240" height="180" /> | <img src="image-5.png" width="240" height="180" /> | <img src="image-7.png" width="240" height="180" /> |
+| <img src="imgs/Perception-ezgif.com-video-to-gif-converter.gif" width="240" height="180" /> | <img src="imgs/image-5.png" width="240" height="180" /> | <img src="imgs/image-7.png" width="240" height="180" /> |
 
 #### 4. 일반화 문제 해결
 
@@ -56,13 +53,13 @@
 
 | 공개 에셋 페이지 | 개선 후 사진 |
 |----------------------|---------------------------|
-| <img src="image-9.png" width="240" height="180" /> | <img src="image-10.png" width="240" height="180" /> |
+| <img src="imgs/image-9.png" width="240" height="180" /> | <img src="imgs/image-10.png" width="240" height="180" /> |
 
 &nbsp; 또한, 밝은 조명을 차량으로 인식하는 문제가 있었는데, Perception 환경에서 밝기를 조정해서 경계인식을 강화했다.
 
 | 조명을 인식하는 사진 | 개선 후 사진 |
 |----------------------|---------------------------|
-| <img src="image-8.png" width="240" height="180" /> | <img src="image-2.png" width="240" height="180" /> |
+| <img src="imgs/image-8.png" width="240" height="180" /> | <img src="imgs/image-2.png" width="240" height="180" /> |
 
 #### 5. 실제 적용 단계 문제 및 해결
 
